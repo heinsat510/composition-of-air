@@ -1,3 +1,27 @@
+<section className="px-6 py-10 max-w-4xl mx-auto text-slate-200">
+  <h1 className="text-3xl font-bold mb-4">
+    Composition of Air – Interactive Grade 11 Science Project
+  </h1>
+
+  <p className="text-lg leading-relaxed mb-4">
+    This website explains the four main gases in Earth’s atmosphere: 
+    <strong>Nitrogen (N₂), Oxygen (O₂), Carbon Dioxide (CO₂), and Argon (Ar)</strong>. 
+    Designed as a Grade 11 science project, it features animations, interactive 
+    explanations, sound effects, and fast navigation between each gas.
+  </p>
+
+  <p className="leading-relaxed mb-4">
+    Learn how each gas contributes to the air we breathe, explore visual charts, and test
+    your understanding through quizzes. This project was created by 
+    <strong>Hein Sat from AMI International School</strong>.
+  </p>
+
+  <p className="text-sm opacity-80">
+    Keywords: composition of air, grade 11 science project, oxygen nitrogen carbon dioxide argon,
+    air composition explanation, interactive science website, AMI International School project.
+  </p>
+</section>
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
