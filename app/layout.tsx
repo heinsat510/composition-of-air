@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   title: "Composition of Air – Interactive Science Project (Grade 11)",
   description:
     "Explore Oxygen, Nitrogen, Carbon Dioxide, and Argon through animations, quizzes, and visual explanations. A Grade-11 interactive science project by Hein Sat.",
+      verification: {
+    google: "ydZWrvKsgThra2oLXdPVwnp6do4vsiGok4gg3nLpQag",
+  },
+
   keywords: [
     "composition of air",
     "grade 11 science project",
