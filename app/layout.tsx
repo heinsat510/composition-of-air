@@ -63,6 +63,37 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "EducationalWebsite",
+              name: "Composition of Air – Interactive Science Project",
+              url: "https://composition-of-air.vercel.app",
+              author: {
+                "@type": "Person",
+                name: "Hein Sat",
+              },
+              description:
+                "Interactive explanation of Earth's atmospheric gases—Oxygen, Nitrogen, Carbon Dioxide, and Argon. Includes animations, quizzes, and clear explanations. A Grade-11 science project by Hein Sat.",
+              keywords: [
+                "composition of air",
+                "air composition",
+                "grade 11 science project",
+                "oxygen nitrogen carbon dioxide argon",
+                "interactive science project",
+                "AMI International School",
+                "air explanation",
+              ],
+              educationalLevel: "Grade 11",
+              learningResourceType: "Educational Science Website",
+            }),
+          }}
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
